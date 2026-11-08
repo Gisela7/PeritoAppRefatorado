@@ -17,7 +17,7 @@ public class AlvaraService {
         alvaraDAO.salvar(alvara); 
     }
     
-    private void validarAlvara(Alvara alvara) {
+    public void validarAlvara(Alvara alvara) {
         if (alvara == null) {
             throw new IllegalArgumentException(
             "Os dados do alvará não foram informados."
